@@ -1,0 +1,61 @@
+.about_container{
+    margin-top: 200px;
+}
+.about_content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    /* justify-self: center;
+    align-self: center; */
+
+}
+
+.about_content .right {
+
+    align-self: center;
+    padding: 0px 100px 0px 70px;
+}
+
+.about_content .left img {
+    max-width: 100%;
+}
+
+.right h1 {
+    font-weight: 900;
+    font-size: 50px;
+    font-family: var(--font_family);
+}
+
+.right h1 span {
+
+
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.about_me h2 {
+    display: inline-block;
+    border-bottom: 4px solid var(--border_color);
+}
+
+.about_me p {
+    font-size: 17px;
+    font-family: var(--font_family);
+    text-align: justify;
+
+}
+
+.about_resume_download{
+    border: 2px solid var(--border_color);
+    border-radius: var(--border_radius);
+    height: 44px;
+    background: none;
+    width: 200px;
+    color: var(--border_color);
+    font-weight: 500;
+
+}
