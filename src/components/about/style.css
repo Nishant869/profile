@@ -57,5 +57,5 @@
     width: 200px;
     color: var(--border_color);
     font-weight: 500;
-
+    cursor: pointer;
 }
